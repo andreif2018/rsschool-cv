@@ -1,0 +1,13 @@
+body {
+    overflow-x: hidden;
+}
+.Content {
+    text-align: center;
+}
+h5 {
+text-decoration: underline;
+}
+.Avatar {
+    position: absolute;
+    left: 100px;
+}
