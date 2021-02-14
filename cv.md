@@ -100,6 +100,6 @@ Automation and manual testing, test design, code review, bug reporting.
 ***
 ### English Proficiency ###
 
-[Level] Upper Intermediate. 
+[Level] B2, Upper Intermediate. 
 
 [Expirience] Colaboration with colleagues and customers, workshops for colleagues and customers on site.
