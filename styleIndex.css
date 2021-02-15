@@ -2,7 +2,7 @@ body {
     overflow-x: hidden;
 }
 .Content {
-    text-align: center;
+    margin: auto;
 }
 h5 {
 text-decoration: underline;
