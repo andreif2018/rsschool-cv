@@ -2,12 +2,90 @@ body {
     overflow-x: hidden;
 }
 .Content {
-    margin: auto;
+    margin: 0 12% 0 12%;
 }
 h5 {
 text-decoration: underline;
 }
+div.FooterContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div.FooterContent div{
+    margin: 25px;
+}
+.Logo img {
+    width: 25%;
+    height: auto;
+}
+figure {
+    border: thin navajowhite solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 120px;
+    margin: auto;
+}
+figcaption {
+    background-color: gray;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+aside {
+    width: 55%;
+    padding-left: 1rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    color: #29627e;
+}
+p {
+    width: 65%;
+    overflow-wrap: normal;
+}
+.Contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.ContactList {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
 .Avatar {
-    position: absolute;
-    left: 200px;
+    grid-column: 2 / 2;
+    grid-row: 1;
+    margin-right: 45%;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.Summary {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+.Skills {
+    grid-column: 2 / 2;
+    grid-row: 1;
+}
+.WorkExperience {
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+.Education {
+    grid-column: 2 / 2;
+    grid-row: 2;
+}
+.EnglishProficiency {
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+.CodeExamples {
+    grid-column: 2 / 2;
+    grid-row: 3;
 }
