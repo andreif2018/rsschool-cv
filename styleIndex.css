@@ -7,17 +7,24 @@ body {
 h5 {
 text-decoration: underline;
 }
-div.FooterContent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+p {
+    width: 65%;
+    overflow-wrap: normal;
 }
-div.FooterContent div{
-    margin: 25px;
+.Contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 15em;
+    gap: 25px;
 }
-.Logo img {
-    width: 25%;
-    height: auto;
+.ContactList {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+.Avatar {
+    grid-column: 2 / 2;
+    grid-row: 1;
+    margin-right: 45%;
 }
 figure {
     border: thin navajowhite solid;
@@ -34,32 +41,6 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
-aside {
-    width: 55%;
-    padding-left: 1rem;
-    margin-left: .5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    color: #29627e;
-}
-p {
-    width: 65%;
-    overflow-wrap: normal;
-}
-.Contacts {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-.ContactList {
-    grid-column: 1 / 2;
-    grid-row: 1;
-}
-.Avatar {
-    grid-column: 2 / 2;
-    grid-row: 1;
-    margin-right: 45%;
-}
 main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -75,17 +56,40 @@ main {
 }
 .WorkExperience {
     grid-column: 1 / 2;
-    grid-row: 2;
+    grid-row: 2 / 5;
 }
 .Education {
     grid-column: 2 / 2;
     grid-row: 2;
 }
-.EnglishProficiency {
-    grid-column: 1 / 2;
-    grid-row: 3;
-}
 .CodeExamples {
     grid-column: 2 / 2;
     grid-row: 3;
+}
+.EnglishProficiency {
+    grid-column: 2 / 2;
+    grid-row: 4;
+}
+aside {
+    width: 55%;
+    padding-left: 1rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    color: #29627e;
+}
+div.FooterContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div.FooterContent div{
+    margin: 25px;
+}
+.Logo img {
+    width: 25%;
+    height: auto;
+}
+summary {
+    outline: none;
 }
