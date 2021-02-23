@@ -1,8 +1,9 @@
 body {
     overflow-x: hidden;
+
 }
 .Content {
-    margin: 0 12% 0 12%;
+    margin: 0 auto;
 }
 h5 {
 text-decoration: underline;
