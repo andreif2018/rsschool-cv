@@ -18,20 +18,10 @@ p {
     overflow-wrap: normal;
 }
 .Contacts {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 15em;
-    gap: 25px;
     padding-left: 3em;
-}
-.ContactList {
-    grid-column: 1 / 2;
-    grid-row: 1;
-}
-.Avatar {
-    grid-column: 2 / 2;
-    grid-row: 1;
-    margin-right: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 figure {
     border: thin navajowhite solid;
