@@ -23,20 +23,10 @@ p {
     flex-direction: row;
     justify-content: space-around;
 }
-figure {
-    border: thin navajowhite solid;
-    display: flex;
-    flex-flow: column;
+.Avatar {
     padding: 5px;
-    max-width: 120px;
+    max-width: 200px;
     margin: auto;
-}
-figcaption {
-    background-color: gray;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
 }
 main {
     display: grid;
